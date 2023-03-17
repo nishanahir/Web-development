@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+</head>
+<body>
+    <center >
+    <form action="#">
+    <table width="50%" height="500px" border="1" rules="all">
+        <tr>
+            <caption><h1>Register Form </h1></caption>
+            <p style="color: red
+        ;">*Must be Fill</p>
+        <!-- This is 1st Row -->
+        <tr>
+            <td>First Name* &nbsp; </td>
+            <td><input type="text" placeholder="First Name" required></td>
+        </tr>
+        <!-- 2ed Row -->
+        <tr>
+            <td>Last Name* &nbsp; </td>
+            <td><input type="text" placeholder="Last Name" required></td>
+        </tr>
+        <!-- 3ed Row -->
+        <tr>
+            <td>Meadle Name* &nbsp; </td>
+            <td><input type="text" placeholder="Meadle Name" required></td>
+        </tr>
+        <!-- 4th Row -->
+        <tr>
+            <td>Email Id-* &nbsp; </td>
+            <td><input type="email" placeholder="abc@emaemple.com" required></td>
+        </tr>
+        <!-- 5th Row -->
+        <tr>
+            <td>Mobile Number* &nbsp; </td>
+            <td><input type="text" placeholder="+91 0000000000" maxlength="13" required></td>
+        </tr>
+        <!-- 6th Row- 1st style-->
+        <tr>
+            <td>Address* &nbsp; </td>
+            <td><input type="text" placeholder="Address" required></td>
+        </tr>
+        <!-- 6th Row  -->
+        <tr>
+            <td>City* &nbsp; </td>
+            <td><select name="city" id="city" required>
+                <option value="">--select city--</option>
+                <option value="surat">Surat</option>
+                <option value="rajkot">Rajkot</option>
+                <option value="baroda">Baroda</option>
+                <option value="Ahamdabad">Ahamdabad</option>
+            </select>
+        </td>
+        </tr>
+        <!-- 7th Row 2ed style -->
+        <tr>
+            <td>Address* &nbsp; </td>
+            <td><textarea name="Address" id="" cols="30" required rows="05"></textarea></td>
+        </tr>
+        <!-- 8th Row -->
+        <tr>
+            <td>Pin code &nbsp; </td>
+            <td>
+                <input type="text" placeholder="Enter Your Pin code" maxlength="6">
+            </td>
+        </tr>
+        <!-- 9th Row -->
+            <tr>
+            <td>Gender*</td>
+            <td>Male<input required type="radio" value="Male" name="gender" id="gender">
+            Female<input type="radio" value="Female" name="gender" id="gender"></td>
+           </tr> 
+           <!-- 10th Row -->
+           <tr>
+            <td colspan="1">   </td>
+            <td><input type="submit" value="submit"> &nbsp; <input type="reset" value="Reset"></td>
+           </tr>
+           </table>
+
+</form>
+</center>
+</body>
+</html>
