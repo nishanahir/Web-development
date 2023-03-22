@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo elements</title>
+    <style>
+       .head1::first-letter{
+        color: rgb(60, 20, 154);
+       }
+       .head1{
+        color: chartreuse;
+       }
+       .div1{
+        height: auto;
+        width: 350px;
+        font-size: 20px;
+        border: 2px solid red;
+        padding: 20px;
+        text-align: center;
+        text-shadow: 1px 1px 3px red;
+       } 
+       .div1::first-line{
+        color: aqua;
+       }
+       .div1::before{
+        content:"\1F680";
+        
+       }
+       .div::after{
+        content:"\2639"
+       }
+       input::placeholder{
+        color: darkblue;
+       }
+    </style>
+</head>
+<body>
+    <h1 class="head1">Hello World</h1>
+   <div class="div1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero vel cupiditate nemo odio, non esse doloribus nesciunt. Impedit labore eaque neque libero expedita dolorem laborum, maxime beatae necessitatibus delectus harum animi assumenda minima similique temporibus, itaque dolore et qui saepe optio. Soluta architecto rem doloremque adipisci consectetur fugit non omnis.
+    </div>
+    <br>
+    <input  type="text" placeholder="What do you thik about this webpage?"> 
+</body>
+</html>
