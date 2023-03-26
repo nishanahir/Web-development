@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link</title>
+    <style>
+        a{
+            font-size: 30px;
+            text-decoration: none;
+            font-family: sans-serif;
+            color: crimson;
+        }
+        /* When we will vist any link then then link's color will be change */
+        .link1:visited{
+            color: black;
+        }
+        /* When we will click on link then color will change */
+        .link2:active{ 
+            color: blue;
+        }
+        /* wen we will tuch the curcer in link then link color will be change */
+        .link3:hover{
+            color: rgb(27, 236, 16);
+        }
+        /* Link pasudo is defoult on our web */
+        .link4:link{
+            color: blanchedalmond;
+        }
+        .link5:hover{
+            color: rgb(67, 146, 61);
+            
+        }
+        /* when we will clik on input section then box will not be bold */
+        .input1:focus-visible{
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+    <a class="link1" href="https://www.google.com/">Google</a> &nbsp;&nbsp;
+    <a class="link2" href="https://www.facebook.com/login/">Facebook</a>  &nbsp;&nbsp;
+    <a class="link3" href="https://www.youtube.com/">YouTube</a>&nbsp;&nbsp;
+    <a class="link4" href="https://www.instagram.com/">Instagram</a>&nbsp;&nbsp;
+    <a class="link5" href="https://web.whatsapp.com/">Whats App Web</a> &nbsp;&nbsp;
+    <hr>
+    <input type="text" placeholder="Your Good Name" class="input1"> We can see defrent between this box.
+    <input type="text" placeholder="Your Good Name" class="input2">
+    
+</body>
+</html>
