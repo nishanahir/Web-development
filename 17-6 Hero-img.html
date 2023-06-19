@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hero Image</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    img{
+        width: 100%;
+        height: 750px;
+        filter: brightness(50%);
+        /* filter: blur(1px); */
+    }
+
+    .heroimg{
+        position: relative;
+    }
+
+    .text{
+        width: 100%;
+        position: absolute;
+        text-align: center;
+        top: 0;
+        padding: 200px 0px;
+        font-size: 25px;
+        color: beige;
+    }
+    h1{
+        text-shadow: 5px 5px 10px black;
+    }
+    p{
+        font-size: 25px;
+        text-shadow: 1px 0 5px black;
+        color: chartreuse;
+        margin: 20px;
+    }
+    button{
+        width: 150px;
+        height: 40px;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        background: transparent;
+        border: 2px solid black;
+        color: rgb(8, 130, 237);
+        border-radius: 15px;
+    }
+    button:hover{
+        border: transparent;
+        background-color: whitesmoke;
+    }
+</style>
+<body>
+    <div class="heroimg">
+        <img src="backgroung.jfif" alt="">
+
+        <div class="text">
+            <h1>Hello World We Made Something for World...</h1>
+            <p> Ipsum dolor sit amet, consectetur adipisicing elit. Qui vel ipsum sequi consequuntur doloremque fugiat ea. Eaque voluptas itaque magni ipsam!</p>
+            <button>Lern More...</button>
+        </div>
+    </div>
+</body>
+</html>
