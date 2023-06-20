@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+</head>
+<style>
+    img{
+        width: 500px;
+        height: auto;
+    }
+    /* This is perent Class */
+    .main{
+        width: 300px;
+        height: auto;
+        position: relative;
+    }
+    /* This class is child class */
+    .img1{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: 1;
+    }
+    .img2{
+        position: absolute;
+        top: 60px;
+        left: 60px;
+        z-index: 2;
+
+        }
+    .img3{
+        position: absolute;
+        top: 120px;
+        left: 120px;
+        z-index: 3;
+    }
+</style>
+<body>
+    <div class="main">
+        <div class="img1">
+        <img src="https://images.pexels.com/photos/1525041/pexels-photo-1525041.jpeg?auto=compress&cs=tinysrgb&w=400" alt="img1" class="1">
+        </div>
+        <div class="img2">
+            <img src="https://images.pexels.com/photos/1643409/pexels-photo-1643409.jpeg?auto=compress&cs=tinysrgb&w=400" alt="">
+        </div>
+        <div class="img3">
+            <img src="https://images.pexels.com/photos/2049422/pexels-photo-2049422.jpeg?auto=compress&cs=tinysrgb&w=400" alt="">
+        </div>
+    </div>
+</body>
+</html>
