@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Side line</title>
+    <style>
+        
+        h1::before,h1::after{
+            content:"" ;
+            width: 150px;
+            height: 3px;
+            background: linear-gradient(to left,red,blue,green);
+            display: inline-block;
+            margin: 8px 8px;
+        }
+        body{
+            text-align: center;
+            margin-top:200px;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+   <h1>Hello World</h1> 
+</body>
+</html>

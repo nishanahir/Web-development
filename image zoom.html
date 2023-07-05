@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Img Zoom</title>
+    <style>
+        .imagezoom{
+            width: 500px;
+            height: 500px;
+            border: 2px solid red;
+            border-radius: 20px;
+            overflow: hidden;
+            margin: 150px 220px;
+        }
+        .imagezoom img{
+            width: 500px;
+            height: 500px;
+            transition: 1s ease-in-out;
+
+        }
+        .imagezoom:hover img{
+            transform: scale(2.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="imagezoom">
+        <img src="https://images.unsplash.com/photo-1499209974431-9dddcece7f88?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGZlZWwlMjBnb29kfGVufDB8fDB8fHww&w=1000&q=80" alt="Somthing">
+    </div>
+</body>
+</html>
